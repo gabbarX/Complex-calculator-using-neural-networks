@@ -1,4 +1,6 @@
 import numpy as np
+from keras.models import Sequential
+from keras.layers import Dense
 
 # Generate a random complex number
 z = np.random.rand() + np.random.rand() * 1j
@@ -37,9 +39,6 @@ for i in range(1000):
 
 X = np.array(X)
 y = np.array(y)
-
-from keras.models import Sequential
-from keras.layers import Dense
 
 # Create a neural network
 model = Sequential()
