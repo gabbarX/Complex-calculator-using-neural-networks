@@ -7,4 +7,5 @@ This project implements a complex number calculator using neural networks. It al
 - multiplication
 - division of complex numbers
 
-`main.py` also geneates a dataset that is kept with the name "dataset.csv" for future reference.
+`main.py` also geneates a dataset that is kept with the name `dataset.csv` for future reference.
+
